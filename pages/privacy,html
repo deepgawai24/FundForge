@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Privacy Policy | FundForge (FFGX)</title>
+
+<meta name="description" content="FundForge Privacy Policy">
+
+<link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<div class="container">
+
+<div class="logo">
+
+<img src="../assets/logo.png" alt="FundForge Logo">
+
+<h2>FundForge</h2>
+
+</div>
+
+<nav>
+
+<ul>
+
+<li><a href="../index.html">Home</a></li>
+
+<li><a href="../index.html#about">About</a></li>
+
+<li><a href="../index.html#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</div>
+
+</header>
+
+<section class="about" style="padding-top:170px;">
+
+<div class="container">
+
+<h1>Privacy Policy</h1>
+
+<p>
+
+Effective Date: June 2026
+
+</p>
+
+<p>
+
+FundForge ("FFGX") respects your privacy and is committed to protecting your personal information.
+
+</p>  
+<p>
+
+We may collect limited information such as wallet addresses,
+email addresses (if voluntarily provided), and website analytics.
+
+</p>
+
+<p>
+
+Your information is used only to improve our services,
+communicate important updates, and maintain platform security.
+
+</p>
+
+<p>
+
+FundForge does not sell, rent, or share your personal
+information with third parties except where required by law.
+
+</p>
+
+<p>
+
+All blockchain transactions are public and permanently recorded
+on the BNB Smart Chain. Users are responsible for keeping
+their wallets and private keys secure.
+
+</p>
+
+<p>
+
+By using FundForge, you acknowledge and agree to this
+Privacy Policy.
+
+</p>
+<p>
+
+If you have any questions regarding this Privacy Policy,
+please contact us:
+
+</p>
+
+<p>
+
+Email: fundforgetoken@gmail.com
+
+</p>
+
+<p>
+
+Website:
+https://github.com/deepgawai24/FundForge
+
+</p>
+
+<br>
+
+<a href="../index.html" class="btn-primary">
+
+← Back to Home
+
+</a>
+
+</div>
+
+</section>
+
+</body>
+
+</html>
