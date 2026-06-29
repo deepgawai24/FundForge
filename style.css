@@ -1,0 +1,644 @@
+/* =====================================================
+   FundForge V3
+   style.css
+===================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#050505;
+color:#ffffff;
+overflow-x:hidden;
+line-height:1.6;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+/* ================= HEADER ================= */
+
+.header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+background:rgba(0,0,0,.85);
+backdrop-filter:blur(12px);
+z-index:999;
+border-bottom:1px solid rgba(212,175,55,.20);
+}
+
+.header .container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 0;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:12px;
+}
+
+.logo img{
+width:50px;
+height:50px;
+}
+
+.logo h2{
+font-size:28px;
+color:#D4AF37;
+font-weight:700;
+}
+
+nav ul{
+display:flex;
+gap:30px;
+list-style:none;
+}
+
+nav ul li a{
+text-decoration:none;
+color:#ffffff;
+font-weight:500;
+transition:.3s;
+}
+
+nav ul li a:hover{
+color:#D4AF37;
+}
+
+/* ================= HERO ================= */
+
+.hero{
+padding:150px 0 80px;
+min-height:100vh;
+display:flex;
+align-items:center;
+}
+
+.hero-container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:60px;
+}
+
+.hero-left{
+flex:1;
+}
+
+.hero-right{
+flex:1;
+text-align:center;
+}
+
+.hero-right img{
+max-width:380px;
+width:100%;
+}
+
+.badge{
+display:inline-block;
+padding:10px 22px;
+background:#D4AF37;
+color:#000;
+font-weight:600;
+border-radius:40px;
+margin-bottom:25px;
+}
+
+.hero h1{
+font-size:70px;
+font-weight:800;
+margin-bottom:10px;
+}
+
+.hero h1 span{
+color:#D4AF37;
+}
+
+.hero h3{
+font-size:30px;
+margin-bottom:20px;
+}
+
+.hero p{
+color:#cfcfcf;
+font-size:18px;
+margin-bottom:35px;
+line-height:1.8;
+}
+
+/* ================= STATS ================= */
+
+.stats{
+padding:80px 0;
+}
+
+.stats-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:25px;
+}
+
+.stat-card{
+background:#111;
+border:1px solid rgba(212,175,55,.15);
+padding:35px;
+border-radius:18px;
+text-align:center;
+transition:.3s;
+}
+
+.stat-card:hover{
+transform:translateY(-8px);
+border-color:#D4AF37;
+}
+
+.stat-card h2{
+font-size:36px;
+color:#D4AF37;
+margin-bottom:10px;
+}
+
+.stat-card p{
+color:#cfcfcf;
+}
+
+/* ================= ABOUT ================= */
+
+.about{
+padding:100px 0;
+text-align:center;
+}
+
+.section-tag{
+display:inline-block;
+padding:8px 20px;
+background:#D4AF37;
+color:#000;
+border-radius:30px;
+font-weight:600;
+margin-bottom:20px;
+}
+
+.about h2{
+font-size:46px;
+color:#D4AF37;
+margin-bottom:25px;
+}
+
+.about p{
+max-width:850px;
+margin:auto;
+color:#cfcfcf;
+font-size:18px;
+line-height:1.8;
+}
+
+/* ================= VISION ================= */
+
+.vision{
+padding:80px 0;
+}
+
+.vision-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:30px;
+}
+
+.vision-card{
+background:#111;
+padding:35px;
+border-radius:18px;
+border:1px solid rgba(212,175,55,.15);
+transition:.3s;
+}
+
+.vision-card:hover{
+transform:translateY(-8px);
+border-color:#D4AF37;
+}
+
+.vision-card h3{
+color:#D4AF37;
+margin-bottom:15px;
+font-size:28px;
+}
+
+.vision-card p{
+color:#cfcfcf;
+line-height:1.8;
+}
+
+/* ================= FEATURES ================= */
+
+.features{
+padding:100px 0;
+}
+
+.features h2{
+text-align:center;
+font-size:44px;
+color:#D4AF37;
+margin-bottom:50px;
+}
+
+.feature-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:25px;
+}
+
+.feature-card{
+background:#111;
+padding:30px;
+border-radius:18px;
+border:1px solid rgba(212,175,55,.15);
+text-align:center;
+transition:.3s;
+}
+
+.feature-card:hover{
+transform:translateY(-10px);
+border-color:#D4AF37;
+}
+
+.feature-card h3{
+color:#D4AF37;
+margin-bottom:15px;
+}
+
+.feature-card p{
+color:#cfcfcf;
+line-height:1.7;
+}
+
+/* ================= TOKEN SECTION ================= */
+
+.token-section{
+padding:100px 0;
+}
+
+.token-section h2{
+text-align:center;
+font-size:44px;
+color:#D4AF37;
+margin-bottom:50px;
+}
+
+.token-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+}
+
+.token-card{
+background:#111;
+padding:30px;
+border-radius:18px;
+border:1px solid rgba(212,175,55,.15);
+text-align:center;
+transition:.3s;
+word-break:break-word;
+}
+
+.token-card:hover{
+transform:translateY(-10px);
+border-color:#D4AF37;
+}
+
+.token-card h3{
+color:#D4AF37;
+margin-bottom:15px;
+}
+
+.token-card p{
+color:#cfcfcf;
+font-size:16px;
+}
+
+/* ================= TOKENOMICS ================= */
+
+.tokenomics{
+padding:100px 0;
+}
+
+.tokenomics h2{
+text-align:center;
+font-size:44px;
+color:#D4AF37;
+margin-bottom:20px;
+}
+
+.section-description{
+max-width:800px;
+margin:0 auto 50px;
+text-align:center;
+color:#cfcfcf;
+}
+
+.tokenomics-grid{
+display:grid;
+grid-template-columns:repeat(5,1fr);
+gap:20px;
+}
+
+.allocation-card{
+background:#111;
+padding:30px;
+border-radius:18px;
+border:1px solid rgba(212,175,55,.15);
+text-align:center;
+transition:.3s;
+}
+
+.allocation-card:hover{
+transform:translateY(-10px);
+border-color:#D4AF37;
+}
+
+.allocation-card h3{
+color:#D4AF37;
+margin-bottom:15px;
+}
+
+.allocation-card h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.allocation-card p{
+color:#cfcfcf;
+}
+
+/* ================= ROADMAP ================= */
+
+.roadmap{
+padding:100px 0;
+}
+
+.roadmap h2{
+text-align:center;
+font-size:44px;
+color:#D4AF37;
+margin-bottom:50px;
+}
+
+.roadmap-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:25px;
+}
+
+.roadmap-card{
+background:#111;
+padding:30px;
+border-radius:18px;
+border:1px solid rgba(212,175,55,.15);
+transition:.3s;
+}
+
+.roadmap-card:hover{
+transform:translateY(-10px);
+border-color:#D4AF37;
+}
+
+.roadmap-card h3{
+color:#D4AF37;
+margin-bottom:20px;
+}
+
+.roadmap-card ul{
+list-style:none;
+}
+
+.roadmap-card li{
+margin-bottom:12px;
+color:#cfcfcf;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:992px){
+
+.token-grid,
+.tokenomics-grid,
+.roadmap-grid{
+grid-template-columns:1fr;
+}
+
+}
+
+/* ================= PROJECT STATUS ================= */
+
+.project-status{
+padding:100px 0;
+}
+
+.project-status h2{
+text-align:center;
+font-size:44px;
+color:#D4AF37;
+margin-bottom:50px;
+}
+
+.status-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+}
+
+.status-card{
+background:#111;
+padding:30px;
+border-radius:18px;
+border:1px solid rgba(212,175,55,.15);
+text-align:center;
+transition:.3s;
+}
+
+.status-card:hover{
+transform:translateY(-10px);
+border-color:#D4AF37;
+}
+
+.status-card h3{
+color:#D4AF37;
+margin-bottom:15px;
+}
+
+.status-card p{
+color:#cfcfcf;
+}
+
+/* ================= FAQ ================= */
+
+.faq{
+padding:100px 0;
+}
+
+.faq h2{
+text-align:center;
+font-size:44px;
+color:#D4AF37;
+margin-bottom:40px;
+}
+
+.faq-item{
+background:#111;
+padding:25px;
+margin-bottom:20px;
+border-radius:15px;
+border:1px solid rgba(212,175,55,.15);
+}
+
+.faq-item h3{
+color:#D4AF37;
+margin-bottom:10px;
+}
+
+.faq-item p{
+color:#cfcfcf;
+}
+
+/* ================= CONTACT ================= */
+
+.contact{
+padding:100px 0;
+text-align:center;
+}
+
+.contact h2{
+font-size:44px;
+color:#D4AF37;
+margin-bottom:30px;
+}
+
+.contact p{
+margin:12px 0;
+color:#cfcfcf;
+word-break:break-word;
+}
+
+/* ================= FOOTER ================= */
+
+footer{
+padding:50px 0;
+background:#0a0a0a;
+border-top:1px solid rgba(212,175,55,.15);
+text-align:center;
+}
+
+footer h2{
+color:#D4AF37;
+margin-bottom:15px;
+}
+
+footer p{
+color:#999;
+margin:10px 0;
+}
+
+footer a{
+color:#D4AF37;
+text-decoration:none;
+}
+
+footer a:hover{
+text-decoration:underline;
+}
+
+/* ================= SCROLLBAR ================= */
+
+::-webkit-scrollbar{
+width:10px;
+}
+
+::-webkit-scrollbar-track{
+background:#111;
+}
+
+::-webkit-scrollbar-thumb{
+background:#D4AF37;
+border-radius:20px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:992px){
+
+.hero-container,
+.vision-grid,
+.feature-grid,
+.stats-grid,
+.status-grid{
+grid-template-columns:1fr;
+display:grid;
+}
+
+.hero{
+padding-top:130px;
+}
+
+.hero h1{
+font-size:48px;
+}
+
+.hero h3{
+font-size:24px;
+}
+
+.hero-buttons{
+justify-content:center;
+}
+
+nav ul{
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+}
+
+.header .container{
+flex-direction:column;
+gap:20px;
+}
+
+.hero-container{
+text-align:center;
+}
+
+.hero-right img{
+max-width:260px;
+}
+
+}
+
+/* ================= ANIMATION ================= */
+
+.feature-card,
+.token-card,
+.allocation-card,
+.roadmap-card,
+.status-card,
+.stat-card,
+.vision-card{
+transition:all .35s ease;
+}
